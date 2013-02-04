@@ -37,12 +37,13 @@
       "bugtracker" : {
          "web" : "https://github.com/plicease/File-Listing-Ftpcopy/issues"
       },
+      "homepage" : "http://search.cpan.org/dist/File-Listing-Ftpcopy/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/plicease/File-Listing-Ftpcopy.git",
          "web" : "https://github.com/plicease/File-Listing-Ftpcopy"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

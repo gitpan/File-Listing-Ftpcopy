@@ -3,7 +3,7 @@ NAME
     ftpcopy
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
      # traditional interface
@@ -28,8 +28,8 @@ SYNOPSIS
        chomp $line;
        my $h = ftpparse($line);
        next unless defined $h;
-       say "name : $h{name}";
-       say "size : $h{size}" if $h{sizetype} != SIZE_UNKNOWN;
+       say "name : ", $h->{name}
+       say "size : ", $h->{size} if $h->{sizetype} != SIZE_UNKNOWN;
      }
 
 DESCRIPTION

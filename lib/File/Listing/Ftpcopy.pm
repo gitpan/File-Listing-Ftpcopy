@@ -8,7 +8,7 @@ use Carp qw( croak );
 use Time::Local qw( timelocal );
 
 # ABSTRACT: parse directory listing using ftpparse from ftpcopy
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 
 sub parse_dir ($;$$$)
@@ -153,7 +153,7 @@ File::Listing::Ftpcopy - parse directory listing using ftpparse from ftpcopy
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -179,8 +179,8 @@ version 0.01
    chomp $line;
    my $h = ftpparse($line);
    next unless defined $h;
-   say "name : $h{name}";
-   say "size : $h{size}" if $h{sizetype} != SIZE_UNKNOWN;
+   say "name : ", $h->{name}
+   say "size : ", $h->{size} if $h->{sizetype} != SIZE_UNKNOWN;
  }
 
 =head1 DESCRIPTION

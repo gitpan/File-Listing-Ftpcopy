@@ -19,5 +19,6 @@ requires:
   perl: v5.10.1
 resources:
   bugtracker: https://github.com/plicease/File-Listing-Ftpcopy/issues
+  homepage: http://search.cpan.org/dist/File-Listing-Ftpcopy/
   repository: git://github.com/plicease/File-Listing-Ftpcopy.git
-version: 0.01
+version: 0.02
