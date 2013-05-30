@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300029, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880",
    "license" : [
       "gpl_2"
    ],
@@ -32,18 +32,18 @@
          }
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/plicease/File-Listing-Ftpcopy/issues"
+         "web" : "https://github.com/plicease/file-listing-ftpcopy/issues"
       },
-      "homepage" : "http://search.cpan.org/dist/File-Listing-Ftpcopy/",
+      "homepage" : "http://perl.wdlabs.com/File-Listing-Ftpcopy/",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/plicease/File-Listing-Ftpcopy.git",
-         "web" : "https://github.com/plicease/File-Listing-Ftpcopy"
+         "url" : "git://github.com/plicease/file-listing-ftpcopy.git",
+         "web" : "https://github.com/plicease/file-listing-ftpcopy"
       }
    },
-   "version" : "0.02"
+   "version" : "0.02_01"
 }
 

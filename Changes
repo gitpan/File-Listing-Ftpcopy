@@ -1,5 +1,9 @@
 Revision history for File-Listing-Ftpcopy
 
+0.02_01   2013-05-29 21:02:05 America/New_York
+  - rm dist build dep on Dist::Zilla::Plugin::MakeMaker::Custom
+  - rm dep on base
+
 0.02      2013-02-04 11:28:59 America/New_York
   - documentation fix
 

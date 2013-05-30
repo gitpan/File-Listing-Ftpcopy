@@ -3,12 +3,12 @@ package File::Listing::Ftpcopy;
 use strict;
 use warnings;
 use v5.10.1;
-use base qw( Exporter );
+use Exporter;
 use Carp qw( croak );
 use Time::Local qw( timelocal );
 
 # ABSTRACT: parse directory listing using ftpparse from ftpcopy
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.02_01'; # VERSION
 
 
 sub parse_dir ($;$$$)
@@ -93,6 +93,7 @@ sub parse_dir ($;$$$)
 }
 
 
+our @ISA = qw( Exporter );
 our @EXPORT = qw( parse_dir );
 
 our %EXPORT_TAGS = (all => [qw(
@@ -153,7 +154,7 @@ File::Listing::Ftpcopy - parse directory listing using ftpparse from ftpcopy
 
 =head1 VERSION
 
-version 0.02
+version 0.02_01
 
 =head1 SYNOPSIS
 
@@ -425,6 +426,9 @@ time zone is unknown
 =back
 
 =head1 CAVEATS
+
+Because C<ftpparse> is written in C and the bindings to it are in XS, so a C compiler
+is required.
 
 Because C<ftpparse> does not parse out permission information, the mode field is
 always undef.

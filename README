@@ -3,7 +3,7 @@ NAME
     ftpcopy
 
 VERSION
-    version 0.02
+    version 0.02_01
 
 SYNOPSIS
      # traditional interface
@@ -200,6 +200,9 @@ FUNCTIONS
             time zone is unknown
 
 CAVEATS
+    Because "ftpparse" is written in C and the bindings to it are in XS, so
+    a C compiler is required.
+
     Because "ftpparse" does not parse out permission information, the mode
     field is always undef.
 

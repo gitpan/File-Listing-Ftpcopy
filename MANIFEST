@@ -15,6 +15,7 @@ case_startb.c
 dist.ini
 ftpparse.c
 ftpparse.h
+inc/MakeMaker.pm
 lib/File/Listing/Ftpcopy.pm
 ppport.h
 str.h
