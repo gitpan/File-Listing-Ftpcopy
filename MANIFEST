@@ -1,3 +1,4 @@
+.travis.yml
 Changes
 Ftpcopy.xs
 INSTALL
@@ -16,6 +17,7 @@ dist.ini
 ftpparse.c
 ftpparse.h
 inc/MakeMaker.pm
+inc/TrimPod.pm
 lib/File/Listing/Ftpcopy.pm
 ppport.h
 str.h

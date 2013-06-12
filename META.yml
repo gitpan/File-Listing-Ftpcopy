@@ -21,4 +21,4 @@ resources:
   bugtracker: https://github.com/plicease/file-listing-ftpcopy/issues
   homepage: http://perl.wdlabs.com/File-Listing-Ftpcopy/
   repository: git://github.com/plicease/file-listing-ftpcopy.git
-version: 0.03
+version: 0.04

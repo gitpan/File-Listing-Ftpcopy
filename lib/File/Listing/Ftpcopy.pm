@@ -8,7 +8,7 @@ use Carp qw( croak );
 use Time::Local qw( timelocal );
 
 # ABSTRACT: parse directory listing using ftpparse from ftpcopy
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 
 sub parse_dir ($;$$$)
@@ -154,7 +154,7 @@ File::Listing::Ftpcopy - parse directory listing using ftpparse from ftpcopy
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -471,14 +471,19 @@ L<http://cr.yp.to/ftpparse.html>
 
 =head1 AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+C code: Uwe Ohse
+
+XS and Perl code: Graham Ollis <plicease@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2013 by Graham Ollis.
+Copyright 2002 by Uwe Ohse
 
-This is free software, licensed under:
+Copyright 2013 by Graham Ollis
 
-  The GNU General Public License, Version 2, June 1991
+This is free software, licensed under the GNU General Public License, 
+Version 2, June 1991
+
+Some source files marked as public domain are in the public domain.
 
 =cut
