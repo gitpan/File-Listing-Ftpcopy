@@ -21,6 +21,8 @@ inc/TrimPod.pm
 lib/File/Listing/Ftpcopy.pm
 ppport.h
 str.h
+t/00_diag.t
+t/00_diag.txt
 t/arrayref.t
 t/constant.t
 t/dosftp.t
@@ -52,3 +54,4 @@ xt/release/pod_spelling_common.t
 xt/release/pod_spelling_system.t
 xt/release/release.yml
 xt/release/strict.t
+xt/release/version.t
